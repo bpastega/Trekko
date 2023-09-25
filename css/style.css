@@ -29,7 +29,13 @@ font-family: 'DM Serif Display', serif;*/
     justify-content: space-around;
     flex-direction: row;
     height: 70px;
-    
+}
+.title-color{
+    font-family: system-ui;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
 }
 .color-menu{
     background-color: #fff;
