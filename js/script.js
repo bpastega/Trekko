@@ -17,3 +17,12 @@ colorList.addEventListener('click', function(event) {
         }
     });
 });
+
+function changeBackgroundColor() {
+    const colorInput = document.getElementById("color-input");
+    const body = document.body;
+
+    body.style.backgroundColor = colorInput.value;
+}
+
+document.getElementById("color-input").addEventListener("input", changeBackgroundColor);

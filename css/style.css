@@ -104,3 +104,10 @@ font-family: 'DM Serif Display', serif;*/
     margin-bottom: 48px; 
     border-top: 0.4px solid #0000008c;
 }
+
+#color-input{
+    height: 0px;
+    width: 0px;
+    padding: 50px 50px 0px 0px;
+    background-image: url("rainbow.png");
+    background-size: 50px 50px;
