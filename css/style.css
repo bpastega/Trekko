@@ -13,7 +13,7 @@ font-family: 'DM Serif Display', serif;*/
     font-family: 'DM Sans', sans-serif;
     margin: auto;
 }
-
+/*Altera o titulo da página */
 .title{
     font-family: 'Righteous', cursive;
     outline: none;
@@ -37,6 +37,7 @@ font-family: 'DM Serif Display', serif;*/
     text-transform: capitalize;
     transition: .2s linear;
 }
+/*Altera as definições do menu de cores */
 .color-menu{
     background-color: #fff;
     position: fixed;
@@ -49,6 +50,7 @@ font-family: 'DM Serif Display', serif;*/
     text-align: center;
     padding: 20px;
 }
+/*Altera o botão de paleta de cores */
 .botao{
     background: #afd46e;
     color: #202020;
