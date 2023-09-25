@@ -27,11 +27,11 @@ font-family: 'DM Serif Display', serif;*/
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    height:70px;
+    height: 70px;
     
 }
 .color-menu{
-    background-color: white;
+    background-color: #fff;
     position: fixed;
     top:0;
     right:0;
@@ -56,7 +56,6 @@ font-family: 'DM Serif Display', serif;*/
     color: #202020;
     border: 1px solid #f5f8271c;
     border-radius: 20px;
-    padding-top: 5px;
     box-shadow: 1px 1px 1px #c9bdbd;
     text-shadow: none;
 }
@@ -78,6 +77,7 @@ font-family: 'DM Serif Display', serif;*/
     height: 50px;
     width: 50px;
     cursor: pointer;
+    border: solid 0.5px #2020204b;
 }
 
 .color-menu .colors-list .color:hover{
@@ -89,4 +89,9 @@ font-family: 'DM Serif Display', serif;*/
 } */
 .menu-hidden {
     display: none;
+}
+
+.conteudo{
+    margin-bottom: 48px; 
+    border-top: 0.4px solid #0000008c;
 }
