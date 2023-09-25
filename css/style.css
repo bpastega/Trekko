@@ -10,6 +10,7 @@ font-family: 'DM Serif Display', serif;*/
 *{
 
     font-family: 'DM Sans', sans-serif;
+    margin: auto;
 }
 
 .title{
@@ -23,6 +24,10 @@ font-family: 'DM Serif Display', serif;*/
 .navegation-bar{
     overflow:hidden;
     background-color: #FED9B7;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height:70px;
     
 }
 .color-menu{
@@ -38,12 +43,26 @@ font-family: 'DM Serif Display', serif;*/
     padding: 20px;
 }
 .botao{
-    border: solid 1px #cca078;
-    border-radius: 10%;
+    background: #afd46e;
+    color: #202020;
+    border: 1px solid #f5f8271c;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px #c9bdbd;
+    height: 30px;
+    text-shadow: none;
 }
 .botao:hover{
-    background-color:#f1c194b0;
+    background: #C2ED77;
+    color: #202020;
+    border: 1px solid #f5f8271c;
+    border-radius: 20px;
+    padding-top: 5px;
+    box-shadow: 1px 1px 1px #c9bdbd;
+    text-shadow: none;
 }
+/* .menu-close{
+    padding-top: 10px;
+} */
 
 .colour-menu .colors-list{
     display: flex;
@@ -51,6 +70,7 @@ font-family: 'DM Serif Display', serif;*/
     justify-content: right;
     flex-direction: column;
     gap:1.5px;
+
 }
 
 .color-menu .colors-list .color{
