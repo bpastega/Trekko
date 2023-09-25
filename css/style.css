@@ -1,6 +1,7 @@
 /*Texto para chamada das fontes
 font-family: 'DM Sans', sans-serif;
 font-family: 'DM Serif Display', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 :root{
     --main.color: #FDFCDC;
     --bg: #fff;
@@ -14,7 +15,7 @@ font-family: 'DM Serif Display', serif;*/
 }
 
 .title{
-    font-family: 'DM Serif Display', serif;
+    font-family: 'Righteous', cursive;
     outline: none;
     text-decoration: none;
     text-transform: capitalize;
